@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1534234877755,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "8231545d4f17d3f384124fb67792e8a2",
         "owner": "internal-data-bridge"
       }
     },
@@ -434,8 +444,9 @@
       "version": "1.3.38",
       "pluginOptions": {
         "plugins": [],
-        "spaceId": "41wvf5jqgovv",
-        "accessToken": "6453106393cb6603894cd4ab0d6567abe647c3ae1a02c76d5a75547cfcee3226"
+        "host": "preview.contentful.com",
+        "spaceId": "lqoydq95hhpx",
+        "accessToken": "3039ca2946bbef2aa4064fcf7a710984d5602a9474067594c0636d17b1f7dd2a"
       },
       "nodeAPIs": [
         "setFieldsOnGraphQLNodeType",
@@ -515,7 +526,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "90714b78c78c64499de3e59ed846d7b9",
+        "contentDigest": "b1fcf19a8048f6d51ca3b67b58d548e2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -619,14 +630,16 @@
     },
     "Site": {
       "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "/gatsby-contentful-starter",
       "polyfill": true,
-      "buildTime": "2018-08-13T14:15:34.907Z",
+      "buildTime": "2018-08-14T08:20:10.841Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "01df6c027c20b3f716319578933a97e1",
+        "contentDigest": "14d8616e5c213639155d10ed5dd257fa",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -4385,12 +4398,12 @@
       "children": [
         "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode >>> MarkdownRemark"
       ],
-      "shortBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "shortBio": "Hipster web developer, at the intersection between beautiful code and overinflated narcissism.",
       "internal": {
         "type": "contentfulPersonShortBioTextNode",
         "mediaType": "text/markdown",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "contentDigest": "857f5dbcad7f8e57a5fba4e85a88fb03",
+        "content": "Hipster web developer, at the intersection between beautiful code and overinflated narcissism.",
+        "contentDigest": "b186376a5cdcce43e0f1e84f43598b3e",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -4408,8 +4421,8 @@
       }
     },
     "c15jwOBqpxqSAOy2eOO4S0m": {
-      "name": "Bangladesh",
-      "title": "Test website",
+      "name": "John Doe",
+      "title": "Web Developer",
       "company": "ACME",
       "email": "john@doe.com",
       "phone": "0176 / 1234567",
@@ -4425,15 +4438,15 @@
       "shortBio___NODE": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode",
       "id": "c15jwOBqpxqSAOy2eOO4S0m",
       "contentful_id": "15jwOBqpxqSAOy2eOO4S0m",
-      "createdAt": "2018-05-16T20:22:55.946Z",
-      "updatedAt": "2018-08-13T13:46:40.718Z",
+      "createdAt": "2018-08-14T08:15:47.876Z",
+      "updatedAt": "2018-08-14T08:15:51.343Z",
       "parent": "Person",
       "children": [
         "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode"
       ],
       "internal": {
         "type": "ContentfulPerson",
-        "contentDigest": "38ea1dd42acfefea01b8da1cec3aa1da",
+        "contentDigest": "0d2b930c50bedddcc5178e0bf93b44da",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -4630,8 +4643,8 @@
       "body___NODE": "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode",
       "id": "c31TNnjHlfaGUoMOwU0M2og",
       "contentful_id": "31TNnjHlfaGUoMOwU0M2og",
-      "createdAt": "2018-05-16T20:22:58.842Z",
-      "updatedAt": "2018-08-13T13:29:42.904Z",
+      "createdAt": "2018-08-14T08:15:47.883Z",
+      "updatedAt": "2018-08-14T08:15:52.888Z",
       "parent": "Blog Post",
       "children": [
         "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode",
@@ -4639,7 +4652,7 @@
       ],
       "internal": {
         "type": "ContentfulBlogPost",
-        "contentDigest": "2c8c0dfa74a0572c03e959903debbe3a",
+        "contentDigest": "0911840be2646b06d0b2bcc6af1a7d2b",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -4657,8 +4670,8 @@
       "body___NODE": "c3K9b0esdy0q0yGqgW2g6KebodyTextNode",
       "id": "c3K9b0esdy0q0yGqgW2g6Ke",
       "contentful_id": "3K9b0esdy0q0yGqgW2g6Ke",
-      "createdAt": "2018-05-16T20:22:57.809Z",
-      "updatedAt": "2018-08-13T13:29:42.562Z",
+      "createdAt": "2018-08-14T08:15:47.936Z",
+      "updatedAt": "2018-08-14T08:15:52.379Z",
       "parent": "Blog Post",
       "children": [
         "c3K9b0esdy0q0yGqgW2g6KedescriptionTextNode",
@@ -4666,7 +4679,7 @@
       ],
       "internal": {
         "type": "ContentfulBlogPost",
-        "contentDigest": "feb84756edcafffea38a61332d0e5c94",
+        "contentDigest": "2e458ed8bccf54d5419b5f45236bde52",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -4685,8 +4698,8 @@
       "body___NODE": "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode",
       "id": "c2PtC9h1YqIA6kaUaIsWEQ0",
       "contentful_id": "2PtC9h1YqIA6kaUaIsWEQ0",
-      "createdAt": "2018-05-16T20:22:56.760Z",
-      "updatedAt": "2018-08-13T13:29:42.200Z",
+      "createdAt": "2018-08-14T08:15:47.914Z",
+      "updatedAt": "2018-08-14T08:15:51.862Z",
       "parent": "Blog Post",
       "children": [
         "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode",
@@ -4694,7 +4707,7 @@
       ],
       "internal": {
         "type": "ContentfulBlogPost",
-        "contentDigest": "43d3071a91aad46dd4cb07b6e2ef58d9",
+        "contentDigest": "f28cec7d0b6cbfbb6e816ed5586b1942",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -4952,7 +4965,7 @@
       "parent": null,
       "children": [],
       "file": {
-        "url": "//images.ctfassets.net/41wvf5jqgovv/6Od9v3wzLOysiMum0Wkmme/5605498f3895055b53e9b20927c27c91/cameron-kirby-88711.jpg",
+        "url": "//images.ctfassets.net/lqoydq95hhpx/6Od9v3wzLOysiMum0Wkmme/99e36bc6fb43929f369a0f986021d5f0/cameron-kirby-88711.jpg",
         "details": {
           "size": 7316629,
           "image": {
@@ -4968,7 +4981,7 @@
       "node_locale": "en-US",
       "internal": {
         "type": "ContentfulAsset",
-        "contentDigest": "8f6095b41f3aea30d9791d735c3ff04c",
+        "contentDigest": "cee32f769fe061fd36be4d05fc28e35c",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -5002,7 +5015,7 @@
       "parent": null,
       "children": [],
       "file": {
-        "url": "//images.ctfassets.net/41wvf5jqgovv/4NzwDSDlGECGIiokKomsyI/b262cad91331a0f51b89bd4cec8b789f/denys-nevozhai-100695.jpg",
+        "url": "//images.ctfassets.net/lqoydq95hhpx/4NzwDSDlGECGIiokKomsyI/ca952fb76044b4375071ba8b87c99641/denys-nevozhai-100695.jpg",
         "details": {
           "size": 15736986,
           "image": {
@@ -5018,7 +5031,7 @@
       "node_locale": "en-US",
       "internal": {
         "type": "ContentfulAsset",
-        "contentDigest": "64d2b5ad30a5a602b816cd738ce458b6",
+        "contentDigest": "2586cffba6f469b01ef9728465b5686c",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -5052,7 +5065,7 @@
       "parent": null,
       "children": [],
       "file": {
-        "url": "//images.ctfassets.net/41wvf5jqgovv/4shwYI3POEGkw0Eg6kcyaQ/c2b1301e2b1b6062fb462137943c9841/felix-russell-saw-112140.jpg",
+        "url": "//images.ctfassets.net/lqoydq95hhpx/4shwYI3POEGkw0Eg6kcyaQ/e20cbe6d1e9bd9a6946e59c510e9d664/felix-russell-saw-112140.jpg",
         "details": {
           "size": 4539181,
           "image": {
@@ -5068,7 +5081,7 @@
       "node_locale": "en-US",
       "internal": {
         "type": "ContentfulAsset",
-        "contentDigest": "a08e034d52bd7107fb967cdd6ed5379c",
+        "contentDigest": "329359183fdcb9ead05e7400589957e1",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -5102,7 +5115,7 @@
       "parent": null,
       "children": [],
       "file": {
-        "url": "//images.ctfassets.net/41wvf5jqgovv/7orLdboQQowIUs22KAW4U/1fe8eed78138479c381a083cc2997a85/matt-palmer-254999.jpg",
+        "url": "//images.ctfassets.net/lqoydq95hhpx/7orLdboQQowIUs22KAW4U/d9b887c261274f2d63ce9be8bfe85054/matt-palmer-254999.jpg",
         "details": {
           "size": 2293094,
           "image": {
@@ -5118,7 +5131,7 @@
       "node_locale": "en-US",
       "internal": {
         "type": "ContentfulAsset",
-        "contentDigest": "d96a15e00d96b29d6d2d6edda5416f0f",
+        "contentDigest": "f280a1d9f91f89e0bf82375510c2bdb8",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -7676,8 +7689,8 @@
       "children": [],
       "parent": "c15jwOBqpxqSAOy2eOO4S0mshortBioTextNode",
       "internal": {
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "contentDigest": "8496ae9b31fc2439139dab9790e250ea",
+        "content": "Hipster web developer, at the intersection between beautiful code and overinflated narcissism.",
+        "contentDigest": "0896ea8b14dc08ff9b21906c7b1c9e49",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark"
       },
@@ -7987,7 +8000,7 @@
       "context": {
         "slug": "automate-with-webhooks"
       },
-      "updatedAt": 1534169784532,
+      "updatedAt": 1534234877699,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/templates/blog-post.js",
@@ -7996,7 +8009,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e0e18f8f8c3a02bc3efcf7feb7dc4093",
+        "contentDigest": "03b1832cc77ea0649c99add625bbd11b",
         "owner": "internal-data-bridge"
       }
     },
@@ -8010,7 +8023,7 @@
       "context": {
         "slug": "hello-world"
       },
-      "updatedAt": 1534169784536,
+      "updatedAt": 1534234877700,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/templates/blog-post.js",
@@ -8019,7 +8032,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "42b856603bbfed810fe0ad6c48539624",
+        "contentDigest": "1d5be99b00db061bd7fe6645c733f446",
         "owner": "internal-data-bridge"
       }
     },
@@ -8033,7 +8046,7 @@
       "context": {
         "slug": "static-sites-are-great"
       },
-      "updatedAt": 1534169784537,
+      "updatedAt": 1534234877701,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/templates/blog-post.js",
@@ -8042,7 +8055,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b2c9b42e189ebd3a29c10275f0e1e84a",
+        "contentDigest": "bbed33b515839257baef26125f20ffad",
         "owner": "internal-data-bridge"
       }
     },
@@ -8056,7 +8069,7 @@
       "context": {
         "slug": "test"
       },
-      "updatedAt": 1534169784538,
+      "updatedAt": 1534234877701,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/templates/blog-post.js",
@@ -8065,7 +8078,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "afa5c5d367835e11f7fd0a33444271ce",
+        "contentDigest": "2bdd1dd71e23fa498e6203fc181f6d41",
         "owner": "internal-data-bridge"
       }
     },
@@ -8077,7 +8090,7 @@
       "component": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/pages/blog.js",
       "componentChunkName": "component---src-pages-blog-js",
       "context": {},
-      "updatedAt": 1534169784558,
+      "updatedAt": 1534234877773,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/pages/blog.js",
@@ -8086,7 +8099,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2af5fa00e0180f103f6592d16a189785",
+        "contentDigest": "7ea0911d91193af8b75d1b9bb8e807fe",
         "owner": "internal-data-bridge"
       }
     },
@@ -8098,7 +8111,7 @@
       "component": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1534169784561,
+      "updatedAt": 1534234877776,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/home/vitalia/projects/bangl/gatsby-contentful-starter/src/pages/index.js",
@@ -8107,7 +8120,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "91755c842bac8422ca4a778e83e27a3b",
+        "contentDigest": "20dad4bbfc43c2b15f4204cdcf905f76",
         "owner": "internal-data-bridge"
       }
     }

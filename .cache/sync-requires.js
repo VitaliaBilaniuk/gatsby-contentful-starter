@@ -8,6 +8,7 @@ exports.layouts = {
 
 exports.components = {
   "component---src-templates-blog-post-js": preferDefault(require("/home/vitalia/projects/bangl/gatsby-contentful-starter/src/templates/blog-post.js")),
+  "component---cache-dev-404-page-js": preferDefault(require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/dev-404-page.js")),
   "component---src-pages-blog-js": preferDefault(require("/home/vitalia/projects/bangl/gatsby-contentful-starter/src/pages/blog.js")),
   "component---src-pages-index-js": preferDefault(require("/home/vitalia/projects/bangl/gatsby-contentful-starter/src/pages/index.js"))
 }
@@ -21,6 +22,8 @@ exports.json = {
   "blog-static-sites-are-great.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/blog-static-sites-are-great.json"),
   "layout-index.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/layout-index.json"),
   "blog-test.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/blog-test.json"),
+  "layout-index.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/layout-index.json"),
+  "dev-404-page.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/layout-index.json"),
   "blog.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/blog.json"),
   "layout-index.json": require("/home/vitalia/projects/bangl/gatsby-contentful-starter/.cache/json/layout-index.json"),
